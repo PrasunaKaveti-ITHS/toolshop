@@ -3,7 +3,6 @@ const db = getDatabase()
 
 const express = require('express')
 const router = express.Router()
-
 // ** REST API **
 
 // GET /tools

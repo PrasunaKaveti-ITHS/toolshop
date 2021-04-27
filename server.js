@@ -19,6 +19,7 @@ app.use(cors())
 app.use(express.static(staticFolder))
 
 // Routes
+
 app.get('/',(req,res) => {
     res.send('Firestore project')
 })

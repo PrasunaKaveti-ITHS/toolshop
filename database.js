@@ -1,6 +1,6 @@
 const admin = require("firebase-admin");
 
-const serviceAccount = require("../toolshop-firebase-private-key.json");
+const serviceAccount = require("./toolshop-firebase-private-key.json");
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount)
 });
